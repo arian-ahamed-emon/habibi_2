@@ -12,7 +12,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ScreenBackground(child: Column()),
+      body: ScreenBackground(child: Column(children: [],)),
     );
   }
 }
