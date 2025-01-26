@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
 ElevatedButtonThemeData _elevatedButtonThemeData() {
   return ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      fixedSize: Size(40, 30),
+      minimumSize: Size(38, 30),
       backgroundColor:  Colors.blueGrey,
       foregroundColor: Colors.white,
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),

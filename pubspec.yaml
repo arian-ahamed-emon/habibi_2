@@ -37,6 +37,7 @@ dependencies:
   get: ^4.6.6
   flutter_screenutil: ^5.9.3
   font_awesome_flutter: ^10.8.0
+  custom_line_indicator_bottom_navbar: ^0.0.8
 
 dev_dependencies:
   flutter_test:

@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:habbibi_2/views/auth/forgot_password_email_screen.dart';
+import 'package:habbibi_2/views/navigation/home_screen.dart';
+import 'package:habbibi_2/views/home/main_bottom_navbar_screen.dart';
 import 'package:habbibi_2/widgets/screen_background.dart';
 import 'package:get/get.dart';
 
@@ -107,7 +109,9 @@ class _LoginWithEmailScreenState extends State<LoginWithEmailScreen> {
               height: 20,
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(() => MainBottomNavbarScreen());
+              },
               style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.all(0),
                 shape: RoundedRectangleBorder(
